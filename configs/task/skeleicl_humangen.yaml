@@ -1,0 +1,45 @@
+# @package _global_
+
+defaults:
+  - override /data: humangen
+  - override /model: fastwam
+  - _self_
+
+batch_size: 16
+num_workers: 16
+
+data:
+  train:
+    enable_icl: true
+    human_input_mode: latent
+    load_text_embedding_cache: true
+    return_metadata: false
+
+model:
+  proprio_dim: 30
+  mot_checkpoint_mixed_attn: false
+  video_dit_config:
+    action_dim: 30
+    has_video_ctx_condition: true
+    video_ctx_type: skeleicl
+    video_ctx_hand_query_tokens: 64
+    video_ctx_object_query_tokens: 64
+    video_ctx_max_human_frames: 121
+    video_ctx_max_objects: 4
+    video_ctx_dino_dim: 2048
+  action_dit_config:
+    action_dim: 30
+    video_ctx_context_dim: ${model.video_dit_config.hidden_dim}
+
+use_lora: false
+
+lr_scheduler_type: cosine
+learning_rate: 5.0e-5
+num_epochs: 10
+max_steps: null
+log_every: 10
+save_every: 2000
+eval_every: 0
+gradient_accumulation_steps: 1
+weight_decay: 1.0e-2
+resume: null

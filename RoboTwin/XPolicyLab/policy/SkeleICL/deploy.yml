@@ -1,0 +1,35 @@
+policy_name: SkeleICL
+protocol: ws
+host: localhost
+port: null
+bench_name: null
+task_name: null
+ckpt_name: null
+env_cfg_type: null
+seed: null
+action_type: null
+gpu_id: null
+eval_batch: false
+
+# Select an upstream task config; its prefix selects the model inference path.
+model_root: /mnt/workspace/tusifan/wm/guood/simple-icl/icl_model
+checkpoint_path: null
+dataset_stats_path: null
+upstream_config_dir: /mnt/workspace/tusifan/wm/guood/simple-icl/icl_model/configs
+upstream_model_task_config: skeleicl_humangen
+upstream_config_overrides: []
+
+device: cuda
+mixed_precision: bf16
+num_inference_steps: 10
+action_horizon: 32
+replan_steps: 24
+seed_inference: 0
+rand_device: cpu
+tiled: false
+normalization: zscore
+human_video_map_path: /mnt/workspace/tusifan/wm/guood/simple-icl/icl_model/scripts/robotwin_icl_human_videos.py
+human_dino_suffix: generated_video_kling-v3_dinov2.npz
+human_hands_suffix: generated_video_kling-v3_hands.pt
+human_video_num_frames: 121
+human_video_size: [320, 448]

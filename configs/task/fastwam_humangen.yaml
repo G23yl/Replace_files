@@ -1,0 +1,42 @@
+# @package _global_
+
+defaults:
+  - override /data: humangen
+  - override /model: fastwam
+  - _self_
+
+# dataloading
+batch_size: 16
+num_workers: 16
+
+# FastWAM baseline: robot demonstrations and task prompts only.
+data:
+  train:
+    enable_icl: false
+    load_text_embedding_cache: true
+
+model:
+  proprio_dim: 30
+  mot_checkpoint_mixed_attn: false
+  video_dit_config:
+    action_dim: 30
+    has_video_ctx_condition: false
+  action_dit_config:
+    action_dim: 30
+    video_ctx_context_dim: null
+
+use_lora: false
+
+# scheduler
+lr_scheduler_type: cosine
+learning_rate: 5.0e-5
+num_epochs: 10
+max_steps: null
+log_every: 10
+save_every: 2000
+eval_every: 0
+
+# training
+gradient_accumulation_steps: 1
+weight_decay: 1.0e-2
+resume: null

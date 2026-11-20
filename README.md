@@ -1,0 +1,3 @@
+- 对于configs/, scripts/, src/文件夹可以直接替换SimpleICL仓库的原文件夹
+- 对于RoboTwin/按照目录结构进行替换，具体而言：env_cfg/和scripts/文件夹可以直接替换，envs下面的两个文件是ZeroWAM评测时会修改的两个文件，直接替换原文件即可（原文件备份一下），XPolicyLab下面的SkeleICL文件夹你直接增加到policy文件夹下
+- 对于data/目录，HumanGen这个数据集RoboTwin的机器人数据里面存在6个视频解码报错，我已经把修复好的6个视频放到这个目录下了，你自己对应替换一下

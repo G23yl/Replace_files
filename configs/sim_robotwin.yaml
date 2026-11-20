@@ -1,0 +1,10 @@
+# @package _global_
+# Inference config for the Robotwin SkeleICL policy adapter.
+defaults:
+  - train
+  - override /task: fastwam_humangen
+  - _self_
+
+model:
+  load_text_encoder: true
+  skip_dit_load_from_pretrain: true
