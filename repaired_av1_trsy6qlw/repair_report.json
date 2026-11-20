@@ -1,0 +1,118 @@
+[
+  {
+    "source": "/mnt/workspace/tusifan/wm/guood/simple-icl/data/robotwin_data/grab_roller-demo_clean_collect_200-1000/videos/chunk-000/observation.images.cam_left_wrist/episode_000760.mp4",
+    "output": "/mnt/workspace/tusifan/wm/guood/simple-icl/icl_model/test_scripts/repaired_av1_trsy6qlw/grab_roller-demo_clean_collect_200-1000__observation.images.cam_left_wrist__episode_000760.mp4",
+    "fps": "50",
+    "width": 640,
+    "height": 480,
+    "original_frame_count": 90,
+    "recovered_frames": 86,
+    "replacements": {
+      "84": 83,
+      "85": 83,
+      "86": 88,
+      "87": 88
+    },
+    "verified_frames": 90,
+    "codec": "av1",
+    "lossless_pixel_verification": true,
+    "decode_errors": [
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'",
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'",
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'",
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'"
+    ]
+  },
+  {
+    "source": "/mnt/workspace/tusifan/wm/guood/simple-icl/data/robotwin_data/lift_pot-demo_clean_collect_200-1000/videos/chunk-000/observation.images.cam_left_wrist/episode_000472.mp4",
+    "output": "/mnt/workspace/tusifan/wm/guood/simple-icl/icl_model/test_scripts/repaired_av1_trsy6qlw/lift_pot-demo_clean_collect_200-1000__observation.images.cam_left_wrist__episode_000472.mp4",
+    "fps": "50",
+    "width": 640,
+    "height": 480,
+    "original_frame_count": 111,
+    "recovered_frames": 110,
+    "replacements": {
+      "79": 78
+    },
+    "verified_frames": 111,
+    "codec": "av1",
+    "lossless_pixel_verification": true,
+    "decode_errors": [
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'"
+    ]
+  },
+  {
+    "source": "/mnt/workspace/tusifan/wm/guood/simple-icl/data/robotwin_data/lift_pot-demo_clean_collect_200-1000/videos/chunk-000/observation.images.cam_left_wrist/episode_000531.mp4",
+    "output": "/mnt/workspace/tusifan/wm/guood/simple-icl/icl_model/test_scripts/repaired_av1_trsy6qlw/lift_pot-demo_clean_collect_200-1000__observation.images.cam_left_wrist__episode_000531.mp4",
+    "fps": "50",
+    "width": 640,
+    "height": 480,
+    "original_frame_count": 108,
+    "recovered_frames": 107,
+    "replacements": {
+      "79": 78
+    },
+    "verified_frames": 108,
+    "codec": "av1",
+    "lossless_pixel_verification": true,
+    "decode_errors": [
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'"
+    ]
+  },
+  {
+    "source": "/mnt/workspace/tusifan/wm/guood/simple-icl/data/robotwin_data/open_laptop-demo_clean_collect_200-1000/videos/chunk-000/observation.images.cam_left_wrist/episode_000583.mp4",
+    "output": "/mnt/workspace/tusifan/wm/guood/simple-icl/icl_model/test_scripts/repaired_av1_trsy6qlw/open_laptop-demo_clean_collect_200-1000__observation.images.cam_left_wrist__episode_000583.mp4",
+    "fps": "50",
+    "width": 640,
+    "height": 480,
+    "original_frame_count": 223,
+    "recovered_frames": 222,
+    "replacements": {
+      "193": 192
+    },
+    "verified_frames": 223,
+    "codec": "av1",
+    "lossless_pixel_verification": true,
+    "decode_errors": [
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'"
+    ]
+  },
+  {
+    "source": "/mnt/workspace/tusifan/wm/guood/simple-icl/data/robotwin_data/pick_dual_bottles-demo_clean_collect_200-1000/videos/chunk-000/observation.images.cam_right_wrist/episode_000610.mp4",
+    "output": "/mnt/workspace/tusifan/wm/guood/simple-icl/icl_model/test_scripts/repaired_av1_trsy6qlw/pick_dual_bottles-demo_clean_collect_200-1000__observation.images.cam_right_wrist__episode_000610.mp4",
+    "fps": "50",
+    "width": 640,
+    "height": 480,
+    "original_frame_count": 116,
+    "recovered_frames": 115,
+    "replacements": {
+      "93": 92
+    },
+    "verified_frames": 116,
+    "codec": "av1",
+    "lossless_pixel_verification": true,
+    "decode_errors": [
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'"
+    ]
+  },
+  {
+    "source": "/mnt/workspace/tusifan/wm/guood/simple-icl/data/robotwin_data/pick_dual_bottles-demo_clean_collect_200-1000/videos/chunk-000/observation.images.cam_right_wrist/episode_000992.mp4",
+    "output": "/mnt/workspace/tusifan/wm/guood/simple-icl/icl_model/test_scripts/repaired_av1_trsy6qlw/pick_dual_bottles-demo_clean_collect_200-1000__observation.images.cam_right_wrist__episode_000992.mp4",
+    "fps": "50",
+    "width": 640,
+    "height": 480,
+    "original_frame_count": 119,
+    "recovered_frames": 117,
+    "replacements": {
+      "76": 75,
+      "77": 78
+    },
+    "verified_frames": 119,
+    "codec": "av1",
+    "lossless_pixel_verification": true,
+    "decode_errors": [
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'",
+      "[Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'"
+    ]
+  }
+]
